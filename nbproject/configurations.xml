@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="src">
+        <in>VectorField.cpp</in>
+        <in>VectorField.h</in>
+        <in>itiot.cpp</in>
+        <in>itiot.h</in>
+        <in>main.cpp</in>
+        <in>ofApp.cpp</in>
+        <in>pallo.cpp</in>
+        <in>pallo.h</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-O3 -march=native -mtune=native -std=c++14"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>bin/home3</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>/usr/include/gstreamer-1.0</pElem>
+              <pElem>/usr/lib/x86_64-linux-gnu/gstreamer-1.0/include</pElem>
+              <pElem>/usr/include/AL</pElem>
+              <pElem>/usr/include/libdrm</pElem>
+              <pElem>/usr/include/gtk-3.0</pElem>
+              <pElem>/usr/include/at-spi2-atk/2.0</pElem>
+              <pElem>/usr/include/at-spi-2.0</pElem>
+              <pElem>/usr/include/dbus-1.0</pElem>
+              <pElem>/usr/lib/x86_64-linux-gnu/dbus-1.0/include</pElem>
+              <pElem>/usr/include/gio-unix-2.0</pElem>
+              <pElem>/usr/include/mirclient</pElem>
+              <pElem>/usr/include/mircore</pElem>
+              <pElem>/usr/include/mircookie</pElem>
+              <pElem>/usr/include/cairo</pElem>
+              <pElem>/usr/include/pango-1.0</pElem>
+              <pElem>/usr/include/harfbuzz</pElem>
+              <pElem>/usr/include/atk-1.0</pElem>
+              <pElem>/usr/include/pixman-1</pElem>
+              <pElem>/usr/include/freetype2</pElem>
+              <pElem>/usr/include/libpng12</pElem>
+              <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+              <pElem>/usr/include/glib-2.0</pElem>
+              <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+              <pElem>../../../libs/fmodex/include</pElem>
+              <pElem>../../../libs/glfw/include</pElem>
+              <pElem>../../../libs/glfw/include/GLFW</pElem>
+              <pElem>../../../libs/kiss/include</pElem>
+              <pElem>../../../libs/poco/include</pElem>
+              <pElem>../../../libs/tess2/include</pElem>
+              <pElem>../../../libs/utf8cpp/include</pElem>
+              <pElem>../../../libs/utf8cpp/include/utf8</pElem>
+              <pElem>../../../libs/openFrameworks</pElem>
+              <pElem>../../../libs/openFrameworks/types</pElem>
+              <pElem>../../../libs/openFrameworks/app</pElem>
+              <pElem>../../../libs/openFrameworks/3d</pElem>
+              <pElem>../../../libs/openFrameworks/communication</pElem>
+              <pElem>../../../libs/openFrameworks/graphics</pElem>
+              <pElem>../../../libs/openFrameworks/video</pElem>
+              <pElem>../../../libs/openFrameworks/math</pElem>
+              <pElem>../../../libs/openFrameworks/utils</pElem>
+              <pElem>../../../libs/openFrameworks/sound</pElem>
+              <pElem>../../../libs/openFrameworks/events</pElem>
+              <pElem>../../../libs/openFrameworks/gl</pElem>
+              <pElem>src</pElem>
+              <pElem>nbproject</pElem>
+              <pElem>nbproject/private</pElem>
+              <pElem>.</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>GCC_HAS_REGEX</Elem>
+              <Elem>NDEBUG</Elem>
+              <Elem>OF_USING_GTK</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="src/VectorField.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/VectorField.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/itiot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/itiot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/ofApp.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/pallo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/pallo.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
